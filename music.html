@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Railblade</title>
+		<link rel="stylesheet" type="text/css" href="http://localhost:8080/styles/style-main.css">
+		<script src="http://localhost:8080/scripts/script-buttonvis-section.js"></script>
+		<script src="http://localhost:8080/scripts/script-buttonvis-div.js"></script>
+		<script src="http://localhost:8080/scripts/script-selectvis.js"></script>
+		<script src="http://localhost:8080/scripts/script-poptable.js"></script>
+		<script src="http://localhost:8080/scripts/script-handleselectionchange.js"></script>
+	</head>
+	<body>
+
+		<a href="index.html">
+			<h1>Railblade</h1>
+		</a>
+
+		<section class="normalsection nav-section">
+			<nav>
+				<a href="index.html">[Home]</a>
+				<a href="music.html">[Music]</a>
+			</nav>
+		</section>
+
+		<section class="normalsection">
+			<section>
+				<button onclick="buttonSectionVisibility('rbmusic')">+</button>
+				<h2>Railblade Music</h2>
+			</section>
+			<section id="rbmusic" class="expandedsection">
+   				<div class="collapseddiv">
+					<div>
+						<button onclick="buttonDivVisibility('tsatottut')">+</button>
+						<span>The Stars Are The Only Things Tying Us Together (2022)</span>
+					</div>
+					<div id="tsatottut" class="expandeddiv">
+						<table class="table-one-column">
+    <tr>
+        <th>Column 1</th>
+    </tr>
+    <tr>
+        <td>Data 1</td>
+    </tr>
+    <tr>
+        <td>Data 2</td>
+    </tr>
+    <!-- Add more rows as needed -->
+</table>
+
+<table class="table-two-columns">
+    <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+    </tr>
+    <tr>
+        <td>Data 1,1</td>
+        <td>Data 1,2</td>
+    </tr>
+    <tr>
+        <td>Data 2,1</td>
+        <td>Data 2,2</td>
+    </tr>
+    <!-- Add more rows as needed -->
+</table>
+
+					</div>
+				</div>
+				
+				<div class="collapseddiv">
+					<div>
+						<button onclick="buttonDivVisibility('recovered')">+</button>
+						<span>Recovered - EP (2017)</span>
+					</div>
+					<div id="recovered" class="expandeddiv">
+						<p>This is the content for Recovered - EP (2017).</p>
+					</div>
+				</div>
+				
+				<div class="collapseddiv">
+					<div>
+						<button onclick="buttonDivVisibility('shadows')">+</button>
+						<span>Shadows (2015)</span>
+					</div>
+					<div id="shadows" class="expandeddiv">
+						<p>This is the content for Shadows (2015).</p>
+					</div>
+				</div>
+				
+				<div class="collapseddiv">
+					<div>
+						<button onclick="buttonDivVisibility('whatcomesafter')">+</button>
+						<span>What Comes After (2014)</span>
+					</div>
+					<div id="whatcomesafter" class="expandeddiv">
+						<p>This is the content for What Comes After (2014).</p>
+					</div>
+				</div>
+				
+				<div class="collapseddiv">
+					<div>
+						<button onclick="buttonDivVisibility('refresh')">+</button>
+						<span>Refresh (2013)</span>
+					</div>
+					<div id="refresh" class="expandeddiv">
+						<p>This is the content for Refresh (2013).</p>
+					</div>
+				</div>
+				
+				<div class="collapseddiv">
+					<div>
+						<button onclick="buttonDivVisibility('facesoflife')">+</button>
+						<span>Faces of Life (2011)</span>
+					</div>
+					<div id="facesoflife" class="expandeddiv">
+						<p>This is the content for Faces of Life (2011).</p>
+					</div>
+				</div>
+				
+				<div class="collapseddiv">
+					<div>
+						<button onclick="buttonDivVisibility('inthebeginning')">+</button>
+						<span>In the Beginning (2011)</span>
+					</div>
+					<div id="inthebeginning" class="expandeddiv">
+						<p>This is the content for In the Beginning (2011).</p>
+					</div>
+				</div>
+				
+			</section>
+		</section>
+
+		<section class="normalsection">
+			<section>
+				<button onclick="buttonSectionVisibility('featured')">+</button>
+				<h2>Other Featured Artists</h2>
+			</section>
+			<section id="featured" class="expandedsection">
+				<p>Here's some music by other musicians featured on my YouTube channel.</p>
+				<br>
+				<br>
+				<label for="options">Select an artist:</label>
+				<select id="options" onchange="handleSelectionChange()">
+					<option value="selectBlank"></option>
+					<optgroup label="A">
+						<option value="selectAllowedSiren">AllowedSiren</option>
+						<option value="selectAnomalist">Anomalist</option>
+						<option value="selectAttachedCoolio">AttachedCoolio</option>
+					</optgroup>
+					
+					<optgroup label="B">
+						<option value="selectBeairTAG">BeairTAG</option>
+						<option value="selectBeamsplitterJay">BeamsplitterJay</option>
+						<option value="selectBustyProdigy">Busty Prodigy</option>
+					</optgroup>
+					
+					<optgroup label="C">
+						<option value="selectChrisGuffick">Chris Guffick</option>
+						<option value="selectChronicore">Chronicore</option>
+						<option value="selectClaytoniusI">Claytonius I</option>
+						<option value="selectCoagulatedJELLO">CoagulatedJELLO</option>
+					</optgroup>
+					
+					<optgroup label="D">
+						<option value="selectDistortionFX">Distortion FX</option>
+						<option value="selectDJTechnoZombie">DJ TechnoZombie</option>
+						<option value="selectDMZ32Bushi">DM Z32Bushi</option>
+						<option value="selectdrumurboy">drumurboy</option>
+						<option value="selectDwacula">Dwacula</option>
+					</optgroup>
+					
+					<optgroup label="G">
+						<option value="selectGNIHTYUGNOSREP">GNIHTYUGNOSREP</option>
+					</optgroup>
+					
+					<optgroup label="J">
+						<option value="selectJEANIZZLE20">JEANIZZLE20</option>
+						<option value="selectJENKY13">JENKY 13</option>
+						<option value="selectJuicifruityou">Juicifruityou</option>
+					</optgroup>
+					
+					<optgroup label="K">
+						<option value="selectK1NGSIEGFRIED">K1NG SIEGFRIED</option>
+					</optgroup>
+					
+					<optgroup label="M">
+						<option value="selectMadNinjaSkillz">Mad Ninja Skillz</option>
+						<option value="selectMadPumpkinPie">Mad PumpkinPie</option>
+						<option value="selectMcGRecords">McG Records</option>
+						<option value="selectModernFloorcare">ModernFloorcare</option>
+						<option value="selectMultiplayrGURU">MultiplayrGURU</option>
+					</optgroup>
+					
+					<optgroup label="P">
+						<option value="selectPizzaHutSlut">Pizza Hut Slut</option>
+						<option value="selectPoTashio">PoTashio</option>
+						<option value="selectPrimeOrdnance">Prime Ordnance</option>
+					</optgroup>
+					
+					<optgroup label="R">
+						<option value="selectRAS902">RAS902</option>
+						<option value="selectRitorikal">Ritorikal</option>
+						<option value="selectRoboturner421">Roboturner421</option>
+					</optgroup>
+					
+					<optgroup label="S">
+						<option value="selectS1XF33TUND3R">S1X F33T UND3R</option>
+						<option value="selectSlinkiestLMan">SlinkiestL Man</option>
+						<option value="selectSmokingPeace">Smoking Peace</option>
+						<option value="selectSpectresamurai">Spectresamurai</option>
+						<option value="selectSTFalcon">ST Falcon</option>
+						<option value="selectStopex">Stopex</option>
+						<option value="selectsYnExPliCitz">sYn ExPliCitz</option>
+					</optgroup>
+					
+					<optgroup label="T">
+						<option value="selectT734QU3">T734QU3</option>
+						<option value="selectTeegi">Teegi</option>
+						<option value="selectTheHamsterAlliance">The Hamster Alliance</option>
+					</optgroup>
+					
+					<optgroup label="V">
+						<option value="selectVuzuh">Vuzuh</option>
+					</optgroup>
+					
+					<optgroup label="W">
+						<option value="selectWAYUPINU">WAYUPINU</option>
+					</optgroup>
+					
+					<optgroup label="X">
+						<option value="selectxXTRUSTYONEXx">xXTRUSTY ONEXx</option>
+					</optgroup>
+					
+					<optgroup label="Z">
+						<option value="selectZeroFoxFK">Zero Fox FK</option>
+					</optgroup>
+				</select>
+				<br>
+				<br>
+				<section id="selectAllowedSiren" class="expandedsection">
+					<h3>AllowedSiren</h3>
+					<table id="tableAllowedSiren" class="table-two-columns">
+						<thead>
+							<tr>
+								<th>ezmuze+ Hamst3r Edition</th>
+								<th>ezmuze+ 2.0</th>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+				</section>
+
+				<section id="selectAnomalist" class="expandedsection">
+					<h3>Anomalist</h3>
+					<table id="tableAnomalist" class="table-one-column">
+						<thead>
+							<tr>
+								<th>ezmuze+ Hamst3r Edition</th>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+				</section>
+
+				<section id="selectAttachedCoolio" class="expandedsection">
+					<h3>AttachedCoolio</h3>
+					<table id="tableAttachedCoolio" class="table-one-column">
+						<thead>
+							<tr>
+								<th>ezmuze+ Hamst3r Edition</th>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+				</section>
+
+				<section id="selectBeairTAG" class="expandedsection">
+					<h3>BeairTAG</h3>
+					<table id="tableBeairTAG" class="table-one-column">
+						<thead>
+							<tr>
+								<th>ezmuze+ 2.0</th>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+				</section>
+
+				<section id="selectBeamsplitterJay" class="expandedsection">
+					<h3>BeamsplitterJay</h3>
+					<table id="tableBeamsplitterJay" class="table-one-column">
+						<thead>
+							<tr>
+								<th>ezmuze+ 2.0</th>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+				</section>
+
+			</section>
+		</section>
+
+		<footer>
+			<br>
+			<p>Last Updated: September 27, 2023, at 12:30pm EDT.</p>
+			<p>This site and all its contents, unless otherwise stated, are Copyright ©2009-2023, held by Railblade.</p>
+			<p>All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>

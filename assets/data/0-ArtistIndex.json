@@ -1,0 +1,141 @@
+{
+    "ArtistIndex": [
+        {
+			"selectAllowedSiren": {
+				"tableId": "tableAllowedSiren", "dataUrl": "assets/data/AllowedSiren.json"
+			},
+			"selectAnomalist": {
+				"tableId": "tableAnomalist", "dataUrl": "assets/data/Anomalist.json"
+			},
+			"selectAttachedCoolio": {
+				"tableId": "tableAttachedCoolio", "dataUrl": "assets/data/AttachedCoolio.json"
+			},
+			"selectBeairTAG": {
+				"tableId": "tableBeairTAG", "dataUrl": "assets/data/BeairTAG.json"
+			},
+			"selectBeamsplitterJay": {
+				"tableId": "tableBeamsplitterJay", "dataUrl": "assets/data/BeamsplitterJay.json"
+			},
+			"selectBustyProdigy": {
+				"tableId": "tableBustyProdigy", "dataUrl": "assets/data/BustyProdigy.json"
+			},
+			"selectChrisGuffick": {
+				"tableId": "tableChrisGuffick", "dataUrl": "assets/data/ChrisGuffick.json"
+			},
+			"selectChronicore": {
+				"tableId": "tableChronicore", "dataUrl": "assets/data/Chronicore.json"
+			},
+			"selectClaytoniusI": {
+				"tableId": "tableClaytoniusI", "dataUrl": "assets/data/ClaytoniusI.json"
+			},
+			"selectCoagulatedJELLO": {
+				"tableId": "tableCoagulatedJELLO", "dataUrl": "assets/data/CoagulatedJELLO.json"
+			},
+			"selectDistortionFX": {
+				"tableId": "tableDistortionFX", "dataUrl": "assets/data/DistortionFX.json"
+			},
+			"selectDJTechnoZombie": {
+				"tableId": "tableDJTechnoZombie", "dataUrl": "assets/data/DJTechnoZombie.json"
+			},
+			"selectDMZ32Bushi": {
+				"tableId": "tableDMZ32Bushi", "dataUrl": "assets/data/DMZ32Bushi.json"
+			},
+			"selectdrumurboy": {
+				"tableId": "tabledrumurboy", "dataUrl": "assets/data/drumurboy.json"
+			},
+			"selectDwacula": {
+				"tableId": "tableDwacula", "dataUrl": "assets/data/Dwacula.json"
+			},
+			"selectGNIHTYUGNOSREP": {
+				"tableId": "tableGNIHTYUGNOSREP", "dataUrl": "assets/data/GNIHTYUGNOSREP.json"
+			},
+			"selectJEANIZZLE20": {
+				"tableId": "tableJEANIZZLE20", "dataUrl": "assets/data/JEANIZZLE20.json"
+			},
+			"selectJENKY13": {
+				"tableId": "tableJENKY13", "dataUrl": "assets/data/JENKY13.json"
+			},
+			"selectJuicifruityou": {
+				"tableId": "tableJuicifruityou", "dataUrl": "assets/data/Juicifruityou.json"
+			},
+			"selectK1NGSIEGFRIED": {
+				"tableId": "tableK1NGSIEGFRIED", "dataUrl": "assets/data/K1NGSIEGFRIED.json"
+			},
+			"selectMadNinjaSkillz": {
+				"tableId": "tableMadNinjaSkillz", "dataUrl": "assets/data/MadNinjaSkillz.json"
+			},
+			"selectMadPumpkinPie": {
+				"tableId": "tableMadPumpkinPie", "dataUrl": "assets/data/MadPumpkinPie.json"
+			},
+			"selectMcGRecords": {
+				"tableId": "tableMcGRecords", "dataUrl": "assets/data/McGRecords.json"
+			},
+			"selectModernFloorcare": {
+				"tableId": "tableModernFloorcare", "dataUrl": "assets/data/ModernFloorcare.json"
+			},
+			"selectMultiplayrGURU": {
+				"tableId": "tableMultiplayrGURU", "dataUrl": "assets/data/MultiplayrGURU.json"
+			},
+			"selectPizzaHutSlut": {
+				"tableId": "tablePizzaHutSlut", "dataUrl": "assets/data/PizzaHutSlut.json"
+			},
+			"selectPoTashio": {
+				"tableId": "tablePoTashio", "dataUrl": "assets/data/PoTashio.json"
+			},
+			"selectPrimeOrdnance": {
+				"tableId": "tablePrimeOrdnance", "dataUrl": "assets/data/PrimeOrdnance.json"
+			},
+			"selectRAS902": {
+				"tableId": "tableRAS902", "dataUrl": "assets/data/RAS902.json"
+			},
+			"selectRitorikal": {
+				"tableId": "tableRitorikal", "dataUrl": "assets/data/Ritorikal.json"
+			},
+			"selectRoboturner421": {
+				"tableId": "tableRoboturner421", "dataUrl": "assets/data/Roboturner421.json"
+			},
+			"selectS1XF33TUND3R": {
+				"tableId": "tableS1XF33TUND3R", "dataUrl": "assets/data/S1XF33TUND3R.json"
+			},
+			"selectSlinkiestLMan": {
+				"tableId": "tableSlinkiestLMan", "dataUrl": "assets/data/SlinkiestLMan.json"
+			},
+			"selectSmokingPeace": {
+				"tableId": "tableSmokingPeace", "dataUrl": "assets/data/SmokingPeace.json"
+			},
+			"selectSpectresamurai": {
+				"tableId": "tableSpectresamurai", "dataUrl": "assets/data/Spectresamurai.json"
+			},
+			"selectSTFalcon": {
+				"tableId": "tableSTFalcon", "dataUrl": "assets/data/STFalcon.json"
+			},
+			"selectStopex": {
+				"tableId": "tableStopex", "dataUrl": "assets/data/Stopex.json"
+			},
+			"selectsYnExPliCitz": {
+				"tableId": "tablesYnExPliCitz", "dataUrl": "assets/data/sYnExPliCitz.json"
+			},
+			"selectT734QU3": {
+				"tableId": "tableT734QU3", "dataUrl": "assets/data/T734QU3.json"
+			},
+			"selectTeegi": {
+				"tableId": "tableTeegi", "dataUrl": "assets/data/Teegi.json"
+			},
+			"selectTheHamsterAlliance": {
+				"tableId": "tableTheHamsterAlliance", "dataUrl": "assets/data/TheHamsterAlliance.json"
+			},
+			"selectVuzuh": {
+				"tableId": "tableVuzuh", "dataUrl": "assets/data/Vuzuh.json"
+			},
+			"selectWAYUPINU": {
+				"tableId": "tableWAYUPINU", "dataUrl": "assets/data/WAYUPINU.json"
+			},
+			"selectxXTRUSTYONEXx": {
+				"tableId": "tablexXTRUSTYONEXx", "dataUrl": "assets/data/xXTRUSTYONEXx.json"
+			},
+			"selectZeroFoxFK": {
+				"tableId": "tableZeroFoxFK", "dataUrl": "assets/data/ZeroFoxFK.json"
+			}
+		}
+	]
+}

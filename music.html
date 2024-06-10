@@ -8,6 +8,7 @@
 		<link rel="apple-touch-icon" href="assets/images/favicon-rb.png">
 		<script src="assets/scripts/script-buttonvis.js"></script>
 		<script src="assets/scripts/script-poptable.js"></script>
+		<script src="assets/scripts/script-stats.js"></script>
 		<script src="assets/scripts/script-footer.js"></script>
 	</head>
 	<body>
@@ -109,110 +110,111 @@
 			</section>
 			<section id="featured" class="expandedsection">
 				<p>Here's some music by other musicians featured on my YouTube channel.</p>
+				<p id="artistStats"></p>
 				<br>
 				<br>
 				<label for="options">Select an artist:</label>
 				<select id="options" onchange="handleSelectionChange()">
-					<option value="selectBlank"></option>
+					<option value="blank"></option>
 					<optgroup label="A">
-						<option value="selectAllowedSiren">AllowedSiren</option>
-						<option value="selectAnomalist">Anomalist</option>
-						<option value="selectAttachedCoolio">AttachedCoolio</option>
+						<option value="AllowedSiren">AllowedSiren</option>
+						<option value="Anomalist">Anomalist</option>
+						<option value="AttachedCoolio">AttachedCoolio</option>
 					</optgroup>
 					
 					<optgroup label="B">
-						<option value="selectBeairTAG">BeairTAG</option>
-						<option value="selectBeamsplitterJay">BeamsplitterJay</option>
-						<option value="selectBustyProdigy">Busty Prodigy</option>
+						<option value="BeairTAG">BeairTAG</option>
+						<option value="BeamsplitterJay">BeamsplitterJay</option>
+						<option value="BustyProdigy">Busty Prodigy</option>
 					</optgroup>
 					
 					<optgroup label="C">
-						<option value="selectChrisGuffick">Chris Guffick</option>
-						<option value="selectChronicore">Chronicore</option>
-						<option value="selectClaytoniusI">Claytonius I</option>
-						<option value="selectCoagulatedJELLO">CoagulatedJELLO</option>
+						<option value="ChrisGuffick">Chris Guffick</option>
+						<option value="Chronicore">Chronicore</option>
+						<option value="ClaytoniusI">Claytonius I</option>
+						<option value="CoagulatedJELLO">CoagulatedJELLO</option>
 					</optgroup>
 					
 					<optgroup label="D">
-						<option value="selectDistortionFX">Distortion FX</option>
-						<option value="selectDJTechnoZombie">DJ TechnoZombie</option>
-						<option value="selectDMZ32Bushi">DM Z32Bushi</option>
-						<option value="selectdrumurboy">drumurboy</option>
-						<option value="selectDwacula">Dwacula</option>
+						<option value="DistortionFX">Distortion FX</option>
+						<option value="DJTechnoZombie">DJ TechnoZombie</option>
+						<option value="DMZ32Bushi">DM Z32Bushi</option>
+						<option value="drumurboy">drumurboy</option>
+						<option value="Dwacula">Dwacula</option>
 					</optgroup>
 					
 					<optgroup label="G">
-						<option value="selectGNIHTYUGNOSREP">GNIHTYUGNOSREP</option>
+						<option value="GNIHTYUGNOSREP">GNIHTYUGNOSREP</option>
 					</optgroup>
 					
 					<optgroup label="J">
-						<option value="selectJEANIZZLE20">JEANIZZLE20</option>
-						<option value="selectJENKY13">JENKY 13</option>
-						<option value="selectJuicifruityou">Juicifruityou</option>
+						<option value="JEANIZZLE20">JEANIZZLE20</option>
+						<option value="JENKY13">JENKY 13</option>
+						<option value="Juicifruityou">Juicifruityou</option>
 					</optgroup>
 					
 					<optgroup label="K">
-						<option value="selectK1NGSIEGFRIED">K1NG SIEGFRIED</option>
+						<option value="K1NGSIEGFRIED">K1NG SIEGFRIED</option>
 					</optgroup>
 					
 					<optgroup label="M">
-						<option value="selectMadNinjaSkillz">Mad Ninja Skillz</option>
-						<option value="selectMadPumpkinPie">Mad PumpkinPie</option>
-						<option value="selectMcGRecords">McG Records</option>
-						<option value="selectModernFloorcare">ModernFloorcare</option>
-						<option value="selectMultiplayrGURU">MultiplayrGURU</option>
+						<option value="MadNinjaSkillz">Mad Ninja Skillz</option>
+						<option value="MadPumpkinPie">Mad PumpkinPie</option>
+						<option value="McGRecords">McG Records</option>
+						<option value="ModernFloorcare">ModernFloorcare</option>
+						<option value="MultiplayrGURU">MultiplayrGURU</option>
 					</optgroup>
 					
 					<optgroup label="P">
-						<option value="selectPizzaHutSlut">Pizza Hut Slut</option>
-						<option value="selectPoTashio">PoTashio</option>
-						<option value="selectPrimeOrdnance">Prime Ordnance</option>
+						<option value="PizzaHutSlut">Pizza Hut Slut</option>
+						<option value="PoTashio">PoTashio</option>
+						<option value="PrimeOrdnance">Prime Ordnance</option>
 					</optgroup>
 					
 					<optgroup label="R">
-						<option value="selectRAS902">RAS902</option>
-						<option value="selectRitorikal">Ritorikal</option>
-						<option value="selectRoboturner421">Roboturner421</option>
+						<option value="RAS902">RAS902</option>
+						<option value="Ritorikal">Ritorikal</option>
+						<option value="Roboturner421">Roboturner421</option>
 					</optgroup>
 					
 					<optgroup label="S">
-						<option value="selectS1XF33TUND3R">S1X F33T UND3R</option>
-						<option value="selectSlinkiestLMan">SlinkiestL Man</option>
-						<option value="selectSmokingPeace">Smoking Peace</option>
-						<option value="selectSpectresamurai">Spectresamurai</option>
-						<option value="selectSTFalcon">ST Falcon</option>
-						<option value="selectStopex">Stopex</option>
-						<option value="selectsYnExPliCitz">sYn ExPliCitz</option>
+						<option value="S1XF33TUND3R">S1X F33T UND3R</option>
+						<option value="SlinkiestLMan">SlinkiestL Man</option>
+						<option value="SmokingPeace">Smoking Peace</option>
+						<option value="Spectresamurai">Spectresamurai</option>
+						<option value="STFalcon">ST Falcon</option>
+						<option value="Stopex">Stopex</option>
+						<option value="sYnExPliCitz">sYn ExPliCitz</option>
 					</optgroup>
 					
 					<optgroup label="T">
-						<option value="selectT734QU3">T734QU3</option>
-						<option value="selectTeegi">Teegi</option>
-						<option value="selectTheHamsterAlliance">The Hamster Alliance</option>
+						<option value="T734QU3">T734QU3</option>
+						<option value="Teegi">Teegi</option>
+						<option value="TheHamsterAlliance">The Hamster Alliance</option>
 					</optgroup>
 					
 					<optgroup label="V">
-						<option value="selectVuzuh">Vuzuh</option>
+						<option value="Vuzuh">Vuzuh</option>
 					</optgroup>
 					
 					<optgroup label="W">
-						<option value="selectWAYUPINU">WAYUPINU</option>
+						<option value="WAYUPINU">WAYUPINU</option>
 					</optgroup>
 					
 					<optgroup label="X">
-						<option value="selectxXTRUSTYONEXx">xXTRUSTY ONEXx</option>
+						<option value="xXTRUSTYONEXx">xXTRUSTY ONEXx</option>
 					</optgroup>
 					
 					<optgroup label="Z">
-						<option value="selectZeroFoxFK">Zero Fox FK</option>
+						<option value="ZeroFoxFK">Zero Fox FK</option>
 					</optgroup>
 				</select>
 				<br>
 				<br>
 				<div>
-					<table id="artistInfo">
+					<p id="artistInfo">
 						<!-- Content for displaying artist information based on selection -->
-					</table>
+					</p>
 				</div>
 			</section>
 		</section>

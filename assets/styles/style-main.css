@@ -170,53 +170,32 @@ select option:checked { /* Highlight the selected option */
 
 /* Table Styles */
 
-/* Table with 1 Column */
-.table-one-column {
-    width: 50%; /* Adjust the width as needed */
+/* General table styles */
+#artistInfo table {
+    width: fit-content;
     border-collapse: collapse;
     margin-bottom: 20px;
     background: linear-gradient(112deg, rgba(31, 31, 48, 0.5) 0%, rgba(42, 42, 59, 0.5) 100%);
 }
 
-.table-one-column th, .table-one-column td {
+/* Header and cell styles */
+#artistInfo th, #artistInfo td {
     border: 1px solid #3a3a4b;
     padding: 10px;
     text-align: center;
     color: #ffffff;
 }
 
-.table-one-column th {
+/* Header background */
+#artistInfo th {
     background: linear-gradient(112deg, rgba(25, 42, 57, 1) 0%, rgba(35, 50, 67, 1) 100%);
 }
 
-/* Alternating row colors for better readability */
-.table-one-column tr:nth-child(even) {
+/* Alternating row colors */
+#artistInfo tr:nth-child(even) {
     background: linear-gradient(112deg, rgba(35, 50, 67, 0.3) 0%, rgba(25, 42, 57, 0.3) 100%);
 }
 
-/* Table with 2 Columns */
-.table-two-columns {
-    width: 50%; /* Adjust the width as needed */
-    border-collapse: collapse;
-    margin-bottom: 20px;
-    background: linear-gradient(112deg, rgba(31, 31, 48, 0.5) 0%, rgba(42, 42, 59, 0.5) 100%);
-}
-
-.table-two-columns th, .table-two-columns td {
-    border: 1px solid #3a3a4b;
-    padding: 10px;
-    text-align: center;
-    color: #ffffff;
-}
-
-.table-two-columns th {
-    background: linear-gradient(112deg, rgba(25, 42, 57, 1) 0%, rgba(35, 50, 67, 1) 100%);
-}
-
-/* Alternating row colors for better readability */
-.table-two-columns tr:nth-child(even) {
-    background: linear-gradient(112deg, rgba(35, 50, 67, 0.3) 0%, rgba(25, 42, 57, 0.3) 100%);
-}
 
 /*Footer Styles*/
 

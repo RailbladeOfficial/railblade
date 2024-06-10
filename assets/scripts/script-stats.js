@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 async function generateStatsText() {
     try {
         // Fetch the JSON file containing the list of data files
-        const response = await fetch('/assets/data/files.json');
+        const response = await fetch('assets/data/files.json');
         // Extract the list of files from the JSON response
         const files = await response.json();
         // Initialize variables to track total songs and unique artists
@@ -21,7 +21,7 @@ async function generateStatsText() {
         for (const file of files) {
             try {
                 // Fetch the content of each data file
-                const response = await fetch(`/assets/data/${file}`);
+                const response = await fetch(`assets/data/${file}`);
                 // Extract JSON data from the fetched content
                 const data = await response.json();
 

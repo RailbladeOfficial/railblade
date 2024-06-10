@@ -1,3 +1,6 @@
+//Script to control visiblity of sections and divs based on button clicks.
+//This probably needs tidying up.
+
 var previousContentSection = null;
 
 function buttonSectionVisibility(option) {

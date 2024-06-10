@@ -1,3 +1,5 @@
+//This is a script to populate the Featured Artists table of the Music Page.
+
 // Function to handle the change event of the artist selection dropdown
 function handleSelectionChange() {
   var selectElement = document.getElementById("options");
@@ -9,7 +11,7 @@ function handleSelectionChange() {
       clearTable();
   } else {
       console.log("Artist selected:", selectedValue);
-      // Fetch the URL of the selected artist's JSON data from the index file
+      // Fetch the JSON data for the selected artist
       fetchArtistData(selectedValue);
   }
 }
@@ -17,90 +19,67 @@ function handleSelectionChange() {
 // Function to fetch the JSON data of the selected artist
 function fetchArtistData(selectedValue) {
   console.log("Fetching artist data for", selectedValue);
+  
+  // If no artist is selected, clear the table and return
+  if (selectedValue === "blank") {
+    console.log("No artist selected.");
+    clearTable();
+    return;
+  }
+
   // Fetch the URL of the selected artist's JSON data from the index file
-  fetch("assets/data/0-ArtistIndex.json") // Ensure correct path to the index file
+  fetch("assets/data/" + selectedValue + ".json") // Assuming each artist's JSON file is named after the artist
       .then(response => response.json())
-      .then(data => {
-          console.log("Artist index data:", data);
-
-          // Retrieve the data URL of the selected artist
-          var artistIndex = data["ArtistIndex"][0];
-          console.log("Artist index:", artistIndex);
-
-          var dataUrl = artistIndex[selectedValue]["dataUrl"];
-          console.log("Data URL:", dataUrl);
-
-          // Fetch the artist's JSON data
-          fetch(dataUrl)
-              .then(response => response.json())
-              .then(artistData => {
-                  console.log("Artist data fetched successfully.");
-                  console.log("Artist data:", artistData);
-                  // Display the artist's data in a table
-                  displayArtistData(artistData[selectedValue]);
-              })
-              .catch(error => {
-                  console.error("Error fetching artist data:", error);
-              });
+      .then(artistData => {
+          console.log("Artist data fetched successfully.");
+          console.log("Artist data:", artistData);
+          // Pass the entire artist's JSON data to the displayArtistData function
+          displayArtistData(artistData);
       })
       .catch(error => {
-          console.error("Error fetching artist index data:", error);
+          console.error("Error fetching artist data:", error);
       });
 }
 
 
-// Function to display the artist's data in a table
-function displayArtistData(artistName, artistData) {
-  console.log("Displaying artist data in table for artist:", artistName);
-  console.log("Artist data:", artistData);
 
-  var table = document.getElementById("artistInfo");
-  table.innerHTML = ""; // Clear previous content
-  console.log("Cleared previous table content.");
+// Function to display the artist's data
+function displayArtistData(artistData) {
+  console.log("Displaying artist data:");
+  console.log(artistData);
 
-  // Check if artistData is undefined or empty
-  if (!artistData || !artistData[artistName] || artistData[artistName].length === 0) {
-      console.log("No data found for the selected artist:", artistName);
-      return;
-  }
+  // Extract the first artist name from the object
+  var artistName = Object.keys(artistData)[0];
 
-  // Determine if the artist data has two columns or one
-  var isTwoColumn = Object.keys(artistData[artistName][0]).length > 1;
-  console.log("Is two column:", isTwoColumn);
+  // Extract the array of tracks for the artist
+  var trackArray = artistData[artistName];
 
-  // Add table headers
-  var headerRow = table.insertRow();
-  console.log("Inserted header row.");
-  if (isTwoColumn) {
-      var headerCell1 = headerRow.insertCell(0);
-      var headerCell2 = headerRow.insertCell(1);
-      headerCell1.innerHTML = "ezmuze+ Hamst3r Edition";
-      headerCell2.innerHTML = "ezmuze+ 2.0";
-      console.log("Inserted two column headers.");
-  } else {
-      var headerCell = headerRow.insertCell(0);
-      headerCell.innerHTML = "Tracks";
-      console.log("Inserted one column header.");
-  }
+  // Construct the table dynamically based on the available keys in the first track
+  var artistInfoTable = "<table><thead><tr>";
 
-  // Add table data
-  artistData[artistName].forEach(track => {
-      var row = table.insertRow();
-      console.log("Inserted new row.");
-      if (isTwoColumn) {
-          var cell1 = row.insertCell(0);
-          var cell2 = row.insertCell(1);
-          cell1.innerHTML = track["ezmuze+ Hamst3r Edition"] || ""; // Handle undefined values
-          cell2.innerHTML = track["ezmuze+ 2.0"] || ""; // Handle undefined values
-          console.log("Inserted two column data.");
-      } else {
-          var cell = row.insertCell(0);
-          cell.innerHTML = track || ""; // Handle undefined values
-          console.log("Inserted one column data.");
-      }
+  // Extract column headers dynamically from the keys of the first track
+  var trackKeys = Object.keys(trackArray[0]);
+  trackKeys.forEach(key => {
+    artistInfoTable += "<th>" + key + "</th>";
   });
-}
 
+  artistInfoTable += "</tr></thead><tbody>";
+
+  // Iterate over the array of tracks and construct table rows
+  trackArray.forEach(track => {
+    var trackRow = "<tr>";
+    trackKeys.forEach(key => {
+      trackRow += "<td>" + (track[key] || "") + "</td>";
+    });
+    trackRow += "</tr>";
+    artistInfoTable += trackRow;
+  });
+
+  artistInfoTable += "</tbody></table>";
+
+  var artistInfoParagraph = document.getElementById("artistInfo");
+  artistInfoParagraph.innerHTML = artistInfoTable;
+}
 
 
 // Function to clear the table

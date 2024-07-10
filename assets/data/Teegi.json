@@ -1,7 +1,16 @@
 {
     "artist": [
 		{
-			"ezmuze+ Hamst3r Edition": "<a href=''>title</a>"
+			"ezmuze+ Hamst3r Edition": "<a href='https://www.dropbox.com/s/2m8tt3cl4hhms4o/Raindrops%20in%20Neo%20New%20York.mp3?dl=0'>Raindrops in Neo New York</a>",
+			"ezmuze+ 2.0": "<a href='https://www.dropbox.com/s/d505i1xaprdhbaz/Cordite.mp3?dl=0'>Cordite</a>"
+		},
+		{
+			"ezmuze+ Hamst3r Edition": "<a href='https://www.dropbox.com/s/7abf7mbm3s41eqw/The%207th%20October.mp3?dl=0'>The 7th October</a>",
+			"ezmuze+ 2.0": "<a href='https://www.dropbox.com/s/fw8a5k9qsdkmyeq/Strut%20It%20Out.mp3?dl=0'>Strut It Out</a>"
+		},
+		{
+			"ezmuze+ Hamst3r Edition": "",
+			"ezmuze+ 2.0": "<a href='https://www.dropbox.com/s/77gnwfc2amzvsmp/Xenotopia.mp3?dl=0'>Xenotopia</a>"
 		}
 	]
 }

@@ -1,0 +1,40 @@
+{
+    "artist": "McG Records",
+	"albums": [
+		{
+			"albumTitle": "The Pro Log EP",
+			"releaseYear": "2018",
+			"albumArt": "assets/images/albumArt/The Pro Log EP.png",
+			"tracks": [
+				{
+					"trackNumber": "1",
+					"song": "<a href='https://www.dropbox.com/s/y6c9k7wszvlmuyj/Interlude.mp3?dl=0'>Interlude</a>"
+				},
+				{
+					"trackNumber": "2",
+					"song": "<a href='https://www.dropbox.com/s/wgwouaym0ztdmbr/Potato%20Connection.mp3?dl=0'>Potato Connection</a>"
+				},
+				{
+					"trackNumber": "3",
+					"song": "<a href='https://www.dropbox.com/s/7lt4y02ke0q5ka0/I%20Need%20Vocals.mp3?dl=0'>I Need Vocals</a>"
+				},
+				{
+					"trackNumber": "4",
+					"song": "<a href='https://www.dropbox.com/s/riospeynly6hkjq/Movement%20Flow.mp3?dl=0'>Movement Flow</a>"
+				},
+				{
+					"trackNumber": "5",
+					"song": "<a href='https://www.dropbox.com/s/wtp2cqzrb0tq2fm/Rollin%27%20n%27%20Smokin%27.mp3?dl=0'>Rollin' n Smokin'</a>"
+				},
+				{
+					"trackNumber": "6",
+					"song": "<a href='https://www.dropbox.com/s/btlx9m8afilw5k4/Spiral.mp3?dl=0'>Spiral</a>"
+				},
+				{
+					"trackNumber": "7",
+					"song": "<a href='https://www.dropbox.com/s/00ewztz58kph30w/I%20Need%20Vocals%20%28Ghetto%20Version%29.mp3?dl=0'>I Need Vocals (Ghetto Version)</a>"
+				}
+			]
+		}
+	]
+}

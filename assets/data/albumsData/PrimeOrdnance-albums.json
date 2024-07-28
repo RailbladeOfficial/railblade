@@ -1,0 +1,32 @@
+{
+    "artist": "Prime Ordnance",
+	"albums": [
+		{
+			"albumTitle": "Carbon EP",
+			"releaseYear": "2017",
+			"albumArt": "assets/images/albumArt/Carbon EP.png",
+			"tracks": [
+				{
+					"trackNumber": "1",
+					"song": "<a href='https://www.dropbox.com/s/buiswvv9fo87r7y/Pioneers.mp3?dl=0'>Pioneers</a>"
+				},
+				{
+					"trackNumber": "2",
+					"song": "<a href='https://www.dropbox.com/s/dqiq5me7twm5rn3/Allotrope.mp3?dl=0'>Allotrope</a>"
+				},
+				{
+					"trackNumber": "3",
+					"song": "<a href='https://www.dropbox.com/s/hdb14bj6mfpa454/Brilliance.mp3?dl=0'>Brilliance</a>"
+				},
+				{
+					"trackNumber": "4",
+					"song": "<a href='https://www.dropbox.com/s/c0o9z3scdv8u288/Unity.mp3?dl=0'>Unity</a>"
+				},
+				{
+					"trackNumber": "5",
+					"song": "<a href='https://www.dropbox.com/s/2g0ijv3ntcqcg7s/Downfall.mp3?dl=0'>Downfall</a>"
+				}
+			]
+		}
+	]
+}

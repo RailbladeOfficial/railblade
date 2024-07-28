@@ -1,0 +1,22 @@
+{
+    "The Hamster Alliance links": [
+		{
+			"Website": "<a href='http://www.hamsteralliance.com/'>Visit their Website</a>"
+		},
+		{
+			"Primary YouTube": "<a href='https://www.youtube.com/user/hamsteralliance'>Visit their Primary YouTube</a>"
+		},
+		{
+			"Secondary YouTube": "<a href='https://www.youtube.com/user/hamsteralliancemusic'>Visit their Secondary YouTube</a>"
+		},
+		{
+			"Facebook": "<a href='https://www.facebook.com/hamsteralliance'>Visit their Facebook</a>"
+		},
+		{
+			"Twitter": "<a href='https://twitter.com/hamst3r'>Visit their Twitter</a>"
+		},
+		{
+			"SoundCloud": "<a href='https://soundcloud.com/hamsteralliance'>Visit their SoundCloud</a>"
+		}
+	]
+}

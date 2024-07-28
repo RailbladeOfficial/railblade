@@ -1,0 +1,397 @@
+{
+    "artist": "Railblade",
+	"albums": [
+		{
+			"divID": "tsatottut",
+			"albumTitle": "The Stars Are The Only Things Tying Us Together",
+			"releaseYear": "2022",
+			"albumArt": "assets/images/albumArt/The Stars Are The Only Things Tying Us Together.png",
+			"tracks": [
+				{
+					"trackNumber": "1",
+					"song": "<a href='https://www.dropbox.com/s/u96bjdltsykugxd/Sunset%20on%20the%20Summer.mp3?dl=0'>Sunset on the Summer</a>"
+				},
+				{
+					"trackNumber": "2",
+					"song": "<a href='https://www.dropbox.com/s/gp8mmqn93fu2eax/Under%20Pressure.mp3?dl=0'>Under Pressure</a>"
+				},
+				{
+					"trackNumber": "3",
+					"song": "<a href='https://www.dropbox.com/s/ufch4p2wy8g52zl/Wormhole%20%28feat.%20Anomalist%29.mp3?dl=0'>Wormhole (feat. Anomalist)</a>"
+				},
+				{
+					"trackNumber": "4",
+					"song": "<a href='https://www.dropbox.com/s/8lrjorcj5r2un6t/Nightfall%20in%20Deadhorse%2C%20Alaska.mp3?dl=0'>Nightfall in Deadhorse, Alaska</a>"
+				},
+				{
+					"trackNumber": "5",
+					"song": "<a href='https://www.dropbox.com/s/a2mz19zszhwli34/The%20X-Files%20Theme%20Remix.mp3?dl=0'>The X-Files Theme Remix</a>"
+				},
+				{
+					"trackNumber": "6",
+					"song": "<a href='https://www.dropbox.com/s/us93cqjm1punwbe/Cotard%20Delusion.mp3?dl=0'>Cotard Delusion</a>"
+				},
+				{
+					"trackNumber": "7",
+					"song": "<a href='https://www.dropbox.com/s/aenlgnd2pn16gfu/Wet%20Hands%20Remix.mp3?dl=0'>Wet Hands Remix</a>"
+				},
+				{
+					"trackNumber": "8",
+					"song": "<a href='https://www.dropbox.com/s/vil32uw25hzaivp/The%20Forgotten%20Son.mp3?dl=0'>The Forgotten Son</a>"
+				},
+				{
+					"trackNumber": "9",
+					"song": "<a href='https://www.dropbox.com/s/ox1imarubfl90cq/Feel%20the%20Chill%20%28Mad%20Ninja%20Remix%29.mp3?dl=0'>Feel the Chill (Mad Ninja Remix)</a>"
+				},
+				{
+					"trackNumber": "10",
+					"song": "<a href='https://www.dropbox.com/s/ebgpylwn49j421z/Retrofit%20%28feat.%20Drewski%29.mp3?dl=0'>Retrofit (feat. Drewski)</a>"
+				},
+				{
+					"trackNumber": "11",
+					"song": "<a href='https://www.dropbox.com/s/psytk3hlnfh6iyf/Swan%20Song.mp3?dl=0'>Swan Song</a>"
+				}
+			]
+		},
+		{
+			"divID": "recovered",
+			"albumTitle": "Recovered EP",
+			"releaseYear": "2017",
+			"albumArt": "assets/images/albumArt/Recovered EP.png",
+			"tracks": [
+				{
+					"trackNumber": "1",
+					"song": "<a href='https://www.dropbox.com/s/rjlpj6oadp2ijyw/Her%20Light.mp3?dl=0'>Her Light</a>"
+				},
+				{
+					"trackNumber": "2",
+					"song": "<a href='https://www.dropbox.com/s/dgu7fbvu0ix17rf/Riding%20the%20Pink%20Lambo.mp3?dl=0'>Riding the Pink Lambo</a>"
+				},
+				{
+					"trackNumber": "3",
+					"song": "<a href='https://www.dropbox.com/s/ref2gil15g3vual/Elemental.mp3?dl=0'>Elemental</a>"
+				},
+				{
+					"trackNumber": "4",
+					"song": "<a href='https://www.dropbox.com/s/z18twexl2kdatxm/Backdrop%202017%20Mix.mp3?dl=0'>Backdrop 2017 Mix</a>"
+				},
+				{
+					"trackNumber": "5",
+					"song": "<a href='https://www.dropbox.com/s/5kfczygzup2shtl/Dedicated%20Worker%202017%20Mix.mp3?dl=0'>Dedicated Worker 2017 Mix</a>"
+				}
+			]
+		},
+		{
+			"divID": "shadows",
+			"albumTitle": "Shadows",
+			"releaseYear": "2015",
+			"albumArt": "assets/images/albumArt/Shadows.png",
+			"tracks": [
+				{
+					"trackNumber": "1",
+					"song": "<a href='https://www.dropbox.com/s/dlf2e8zm5yfyv0v/Lost%20in%20the%20Lies.mp3?dl=0'>Lost in the Lies</a>"
+				},
+				{
+					"trackNumber": "2",
+					"song": "<a href='https://www.dropbox.com/s/2hlk709hlu79wty/Unicorns%20Took%20My%20Twix.mp3?dl=0'>Unicorns Took My Twix</a>"
+				},
+				{
+					"trackNumber": "3",
+					"song": "<a href='https://www.dropbox.com/s/pwhe3ayd4rm56ra/Eerie%20Nostalgia%20%28feat.%20Pizza%20Hut%20Slut%29.mp3?dl=0'>Eerie Nostalgia (feat. Pizza Hut Slut)</a>"
+				},
+				{
+					"trackNumber": "4",
+					"song": "<a href='https://www.dropbox.com/s/jt3r23kiif0864q/The%20Sexy%20Leprechaun%20Awaits.mp3?dl=0'>The Sexy Leprechaun Awaits</a>"
+				},
+				{
+					"trackNumber": "5",
+					"song": "<a href='https://www.dropbox.com/s/s9msdvn0mtniydi/Nothing%20but%20Memories%20and%20the%20Open%20Road.mp3?dl=0'>Nothing but Memories and the Open Road</a>"
+				},
+				{
+					"trackNumber": "6",
+					"song": "<a href='https://www.dropbox.com/s/h8r6epjvahcpofm/Stuck.mp3?dl=0'>Stuck</a>"
+				},
+				{
+					"trackNumber": "7",
+					"song": "<a href='https://www.dropbox.com/s/phe1cjtxwwibrk1/Dark%20Orbit.mp3?dl=0'>Dark Orbit</a>"
+				},
+				{
+					"trackNumber": "8",
+					"song": "<a href='https://www.dropbox.com/s/z9c54u6nf6vytq0/Time%20to%20Relapse%20%28feat.%20Smoking%20Peace%29.mp3?dl=0'>Time to Relapse (feat. Smoking Peace)</a>"
+				},
+				{
+					"trackNumber": "9",
+					"song": "<a href='https://www.dropbox.com/s/m808kq9514bik1g/Just%20a%20Taste%20of%2080%27s%20Acid.mp3?dl=0'>Just a Taste of 80's Acid</a>"
+				},
+				{
+					"trackNumber": "10",
+					"song": "<a href='https://www.dropbox.com/s/6xw5pk45fkeypvg/Moment%20After%20the%20Nightmare%20%28feat.%20Pizza%20Hut%20Slut%20and%20Smoking%20Peace%29.mp3?dl=0'>Moment After the Nightmare (feat. Pizza Hut Slut and Smoking Peace)</a>"
+				},
+				{
+					"trackNumber": "11",
+					"song": "<a href='https://www.dropbox.com/s/cf85qbuubt6u3nj/When%20the%20Stars%20Come%20Out.mp3?dl=0'>When the Stars Come Out</a>"
+				},
+				{
+					"trackNumber": "12",
+					"song": "<a href='https://www.dropbox.com/s/i5b4znmo91t11n2/Pills%20and%20Hallucinations%20%28feat.%20Smoking%20Peace%29.mp3?dl=0'>Pills and Hallucinations (feat. Smoking Peace)</a>"
+				},
+				{
+					"trackNumber": "13",
+					"song": "<a href='https://www.dropbox.com/s/egr5ig0tdx3vqgi/You%20And%20What%20Army.mp3?dl=0'>You and What Army</a>"
+				},
+				{
+					"trackNumber": "14",
+					"song": "<a href='https://www.dropbox.com/s/rpplbt1n8eo5fag/Just%20Before%20Dark%20%28feat.%20Shawn%20and%20Joshua%29.mp3?dl=0'>Just Before Dark (feat. Shawn and Joshua)</a>"
+				}
+			]
+		},
+		{
+			"divID": "whatcomesafter",
+			"albumTitle": "What Comes After",
+			"releaseYear": "2014",
+			"albumArt": "assets/images/albumArt/What Comes After.png",
+			"tracks": [
+				{
+					"trackNumber": "1",
+					"song": "<a href='https://www.dropbox.com/s/skvpc3130qvkpuv/Feel%20the%20Chill.mp3?dl=0'>Feel the Chill</a>"
+				},
+				{
+					"trackNumber": "2",
+					"song": "<a href='https://www.dropbox.com/s/njun6buok1yh8nm/Thinking%20About%20Things.mp3?dl=0'>Thinking About Things</a>"
+				},
+				{
+					"trackNumber": "3",
+					"song": "<a href='https://www.dropbox.com/s/r72h4yfkbdmzeo9/This%20Is%20Alone.mp3?dl=0'>This is Alone</a>"
+				},
+				{
+					"trackNumber": "4",
+					"song": "<a href='https://www.dropbox.com/s/2k56737xgruvk97/Choose%20Your%20Character%20%28feat.%20CoagulatedJELLO%29.mp3?dl=0'>Choose Your Character (feat. CoagulatedJELLO)</a>"
+				},
+				{
+					"trackNumber": "5",
+					"song": "<a href='https://www.dropbox.com/s/9heyghc4b6u882v/It%27s%20Happening%20Again%20%28feat.%20Pizza%20Hut%20Slut%29.mp3?dl=0'>It's Happening Again (feat. Pizza Hut Slut)</a>"
+				},
+				{
+					"trackNumber": "6",
+					"song": "<a href='https://www.dropbox.com/s/mr1hjj0no03hoti/Can%20We%20Try%20This%20Again.mp3?dl=0'>Can We Try This Again?</a>"
+				},
+				{
+					"trackNumber": "7",
+					"song": "<a href='https://www.dropbox.com/s/or68wb0w9c3obs8/CAPCOM%20Remix%20by%20xXTRUSTY%20ONEXx%20%28feat.%20Railblade%29.mp3?dl=0'>CAPCOM Remix by xXTRUSTY ONEXx (feat. Railblade)</a>"
+				},
+				{
+					"trackNumber": "8",
+					"song": "<a href='https://www.dropbox.com/s/7zjm6n175okovp3/Loud%20Noises%20by%20CoagulateedJELLO%20%28feat.%20Railblade%29.mp3?dl=0'>Loud Noises by CoagulatedJELLO (feat. Railblade)</a>"
+				},
+				{
+					"trackNumber": "9",
+					"song": "<a href='https://www.dropbox.com/s/4dlziqv7blxmvnf/%28S%29Maca%28b%29roni.mp3?dl=0'>(S)Maca(b)roni</a>"
+				},
+				{
+					"trackNumber": "10",
+					"song": "<a href='https://www.dropbox.com/s/q22iv9opzhqwkqa/NURTURE%20Remix%20by%20xXTRUSTY%20ONEXx%20%28feat.%20Railblade%29.mp3?dl=0'>NURTURE Remix by xXTRUSTY ONEXx (feat. Railblade)</a>"
+				},
+				{
+					"trackNumber": "11",
+					"song": "<a href='https://www.dropbox.com/s/41emzkl4rxkg8qa/But%20Now%20You%3Bre%20Gone.mp3?dl=0'>But Now You're Gone</a>"
+				},
+				{
+					"trackNumber": "12",
+					"song": "<a href='https://www.dropbox.com/s/6px3f3uhkiliy4d/The%20Chasing%2074%20Remix%20%28feat.%20CoagulatedJELLO%29.mp3?dl=0'>The Chasing 74 Remix (feat. CoagulatedJELLO)</a>"
+				},
+				{
+					"trackNumber": "13",
+					"song": "<a href='https://www.dropbox.com/s/zivggk3nnb9xwt6/Melodies%20Revamp%2098%20by%20Pizza%20Hut%20Slut%20%28feat.%20Railblade%29.mp3?dl=0'>Melodies Revamp 110 by Pizza Hut Slut (feat. Railblade)</a>"
+				},
+				{
+					"trackNumber": "14",
+					"song": "<a href='https://www.dropbox.com/s/yoqviya4d3jtcr0/The%20Unloved%20Remix%20%28feat.%20CoagulatedJELLO%29.mp3?dl=0'>The Unloved Remix (feat. CoagulatedJELLO)</a>"
+				},
+				{
+					"trackNumber": "15",
+					"song": "<a href='https://www.dropbox.com/s/ltt08bmlsuc7zwa/Melodies%20Revamp%20110%20by%20Pizza%20Hut%20Slut%20%28feat.%20Railblade%29.mp3?dl=0'>Melodies Revamp 110 by Pizza Hut Slut (feat. Railblade)</a>"
+				},
+				{
+					"trackNumber": "16",
+					"song": "<a href='https://www.dropbox.com/s/h6bhfbtqb0dt6zk/Kevin%20Started%20A%20War.mp3?dl=0'>Kevin Started a War</a>"
+				}
+			]
+		},
+		{
+			"divID": "refresh",
+			"albumTitle": "Refresh",
+			"releaseYear": "2013",
+			"albumArt": "assets/images/albumArt/Refresh.png",
+			"tracks": [
+				{
+					"trackNumber": "1",
+					"song": "<a href='https://www.dropbox.com/s/hdev5td5sk9tpv7/New%20Beginnings.mp3?dl=0'>New Beginnings</a>"
+				},
+				{
+					"trackNumber": "2",
+					"song": "<a href='https://www.dropbox.com/s/ojrly18327bdzhz/DUB%20TONE%20Remix%20by%20xXTRUSTY%20ONEXx%20%28feat.%20Railblade%29.mp3?dl=0'>DUB TONE Remix by xXTRUSTY ONEXx (feat. Railblade)</a>"
+				},
+				{
+					"trackNumber": "3",
+					"song": "<a href='https://www.dropbox.com/s/ho26nmqp0xifogx/The%20Chasing%2074.mp3?dl=0'>The Chasing 74</a>"
+				},
+				{
+					"trackNumber": "4",
+					"song": "<a href='https://www.dropbox.com/s/hcjdeybxisn8ats/Heartfall.mp3?dl=0'>Heartfall</a>"
+				},
+				{
+					"trackNumber": "5",
+					"song": "<a href='https://www.dropbox.com/s/9a5xa8whql9jkz0/Questions.mp3?dl=0'>Questions</a>"
+				},
+				{
+					"trackNumber": "6",
+					"song": "<a href='https://www.dropbox.com/s/jqol1a15w7oac11/Communication.mp3?dl=0'>Communication</a>"
+				},
+				{
+					"trackNumber": "7",
+					"song": "<a href='https://www.dropbox.com/s/djuxfjeb96lye79/It%27s%20Happening.mp3?dl=0'>It's Happening</a>"
+				},
+				{
+					"trackNumber": "8",
+					"song": "<a href='https://www.dropbox.com/s/isa8s9olp5d1s00/The%20Third%20Step.mp3?dl=0'>The Third Step</a>"
+				},
+				{
+					"trackNumber": "9",
+					"song": "<a href='https://www.dropbox.com/s/sl1zugifyzpjsfk/Anomalistical.mp3?dl=0'>Anomalistical</a>"
+				},
+				{
+					"trackNumber": "10",
+					"song": "<a href='https://www.dropbox.com/s/txd9jo0tgm7gkrj/What%20Was%20Ours.mp3?dl=0'>What Was Ours</a>"
+				},
+				{
+					"trackNumber": "11",
+					"song": "<a href='https://www.dropbox.com/s/rxof7rfcpnct4y4/The%20Unloved.mp3?dl=0'>The Unloved</a>"
+				},
+				{
+					"trackNumber": "12",
+					"song": "<a href='https://www.dropbox.com/s/9w7if06ey2by24p/The%20Chasing%20120.mp3?dl=0'>The Chasing 120</a>"
+				},
+				{
+					"trackNumber": "13",
+					"song": "<a href='https://www.dropbox.com/s/1wucdudvclsgg2u/Civilization.mp3?dl=0'>Civilization</a>"
+				}
+			]
+		},
+		{
+			"divID": "facesoflife",
+			"albumTitle": "Faces of Life",
+			"releaseYear": "2011",
+			"albumArt": "assets/images/albumArt/Faces of Life.png",
+			"tracks": [
+				{
+					"trackNumber": "1",
+					"song": "<a href='https://www.dropbox.com/s/jmkyags0jti0ib1/Realization.mp3?dl=0'>Realization</a>"
+				},
+				{
+					"trackNumber": "2",
+					"song": "<a href='https://www.dropbox.com/s/2yakk6pd7eem4a5/Peace.mp3?dl=0'>Peace</a>"
+				},
+				{
+					"trackNumber": "3",
+					"song": "<a href='https://www.dropbox.com/s/rxbxn3czujferwt/Dedicated%20Worker.mp3?dl=0'>Dedicated Worker</a>"
+				},
+				{
+					"trackNumber": "4",
+					"song": "<a href='https://www.dropbox.com/s/z8if3m0inevu8av/The%20One.mp3?dl=0'>The One</a>"
+				},
+				{
+					"trackNumber": "5",
+					"song": "<a href='https://www.dropbox.com/s/qlxsuj8qgd5qk00/Long%20Nights%20at%20the%20Studio.mp3?dl=0'>Long Nights at the Studio</a>"
+				},
+				{
+					"trackNumber": "6",
+					"song": "<a href='https://www.dropbox.com/s/0kt356fxzi1l7lq/Stone%20Cold%20City%20Streets.mp3?dl=0'>Stone Cold City Streets</a>"
+				},
+				{
+					"trackNumber": "7",
+					"song": "<a href='https://www.dropbox.com/s/mr2oaybd999p7lx/A%20Day%20in%20the%20Life.mp3?dl=0'>A Day in the Life</a>"
+				},
+				{
+					"trackNumber": "8",
+					"song": "<a href='https://www.dropbox.com/s/g30n94n8kgwxrh6/Backdrop.mp3?dl=0'>Backdrop</a>"
+				},
+				{
+					"trackNumber": "9",
+					"song": "<a href='https://www.dropbox.com/s/a1daq0iqciox4kj/Dreamworld.mp3?dl=0'>Dreamworld</a>"
+				},
+				{
+					"trackNumber": "10",
+					"song": "<a href='https://www.dropbox.com/s/mi1y999bk0538am/Disembodiment.mp3?dl=0'>Disembodiment</a>"
+				},
+				{
+					"trackNumber": "11",
+					"song": "<a href='https://www.dropbox.com/s/zb2yhfag8lmho3s/Equality%20Remix%20%28feat.%20S1X%20F33T%20UND3R%29.mp3?dl=0'>Equality Remix (feat. S1X F33T UND3R)</a>"
+				},
+				{
+					"trackNumber": "12",
+					"song": "<a href='https://www.dropbox.com/s/iivz3rwi7t2ghzr/Wake%20Up%20To%20Life%20by%20Ritorikal%20%28feat.%20Railblade%29.mp3?dl=0'>Wake Up To Life by Ritorikal (feat. Railblade)</a>"
+				},
+				{
+					"trackNumber": "13",
+					"song": "<a href='https://www.dropbox.com/s/s893wk25lh8o60u/Destroyer%20Remix%20%28feat.%20MultiplayrGURU%29.mp3?dl=0'>Destroyer Remix (feat. MultiplayrGURU)</a>"
+				}
+			]
+		},
+		{
+			"divID": "inthebeginning",
+			"albumTitle": "In the Beginning",
+			"releaseYear": "2011",
+			"albumArt": "assets/images/albumArt/In The Beginning.png",
+			"tracks": [
+				{
+					"trackNumber": "1",
+					"song": "<a href='https://www.dropbox.com/s/sdaffm1aqvgmwh8/Destroyer.mp3?dl=0'>Destroyer</a>"
+				},
+				{
+					"trackNumber": "2",
+					"song": "<a href='https://www.dropbox.com/s/p29k0ko7e3bknn4/Art%20of%20Inception.mp3?dl=0'>Art of Inception</a>"
+				},
+				{
+					"trackNumber": "3",
+					"song": "<a href='https://www.dropbox.com/s/y7p57lggfilyksc/Breakdance.mp3?dl=0'>Breakdance</a>"
+				},
+				{
+					"trackNumber": "4",
+					"song": "<a href='https://www.dropbox.com/s/9fs699kj4h7nexz/Breakdance%202.mp3?dl=0'>Breakdance 2</a>"
+				},
+				{
+					"trackNumber": "5",
+					"song": "<a href='https://www.dropbox.com/s/h64w3gyzyrdrr05/Speed.mp3?dl=0'>Speed</a>"
+				},
+				{
+					"trackNumber": "6",
+					"song": "<a href='https://www.dropbox.com/s/vqnlp0j4rr82oai/Interaction.mp3?dl=0'>Interaction</a>"
+				},
+				{
+					"trackNumber": "7",
+					"song": "<a href='https://www.dropbox.com/s/qqwsd3fzmri4khz/Bring%20Back%20The%20Dead.mp3?dl=0'>Bring Back the Dead</a>"
+				},
+				{
+					"trackNumber": "8",
+					"song": "<a href='https://www.dropbox.com/s/a4uld1rvhwf3h90/Reformation.mp3?dl=0'>Reformation</a>"
+				},
+				{
+					"trackNumber": "9",
+					"song": "<a href='https://www.dropbox.com/s/qroakb88qz9sban/Time%20Shift.mp3?dl=0'>Time Shift</a>"
+				},
+				{
+					"trackNumber": "10",
+					"song": "<a href='https://www.dropbox.com/s/ruljn9x6eb07iat/The%20Enemy.mp3?dl=0'>The Enemy</a>"
+				},
+				{
+					"trackNumber": "11",
+					"song": "<a href='https://www.dropbox.com/s/k3idf8t914bvnlo/Equality.mp3?dl=0'>Equality</a>"
+				},
+				{
+					"trackNumber": "12",
+					"song": "<a href='https://www.dropbox.com/s/s4b545g0angvp0f/Tribal%20Spirit%20Revival.mp3?dl=0'>Tribal Spirit Revival</a>"
+				}
+			]
+		}
+	]
+}

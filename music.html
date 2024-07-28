@@ -3,11 +3,11 @@
 	<head>
 		<title>Railblade</title>
 		<link rel="stylesheet" type="text/css" href="assets/styles/style-main.css">
-		<link rel="icon" href="assets/images/favicon-rb.png" sizes="32x32">
-		<link rel="icon" href="assets/images/favicon-rb.png" sizes="192x192">
-		<link rel="apple-touch-icon" href="assets/images/favicon-rb.png">
+		<link rel="icon" href="assets/images/logos/favicon-rb.png" sizes="32x32">
+		<link rel="icon" href="assets/images/logos/favicon-rb.png" sizes="192x192">
+		<link rel="apple-touch-icon" href="assets/images/logos/favicon-rb.png">
 		<script src="assets/scripts/script-buttonvis.js"></script>
-		<script src="assets/scripts/script-poptable.js"></script>
+		<script src="assets/scripts/script-loadMusic.js"></script>
 		<script src="assets/scripts/script-stats.js"></script>
 		<script src="assets/scripts/script-footer.js"></script>
 	</head>
@@ -30,6 +30,17 @@
 				<h2>Railblade Music</h2>
 			</section>
 			<section id="rbmusic" class="expandedsection">
+				
+				<div class="collapseddiv">
+					<div>
+						<button onclick="buttonDivVisibility('other')">+</button>
+						<span>Non-album Singles</span>
+					</div>
+					<div id="other" class="expandeddiv">
+						<p>This is the content for Non-album Singles.</p>
+					</div>
+				</div>
+
    				<div class="collapseddiv">
 					<div>
 						<button onclick="buttonDivVisibility('tsatottut')">+</button>
@@ -212,9 +223,19 @@
 				<br>
 				<br>
 				<div>
-					<p id="artistInfo">
-						<!-- Content for displaying artist information based on selection -->
-					</p>
+					<p id="artistInfoLinks">
+					<!-- Content for displaying artist information based on selection -->
+					 </p>
+				</div>
+				<div>
+					<p id="artistInfoAlbums">
+					<!-- Content for displaying artist information based on selection -->
+					 </p>
+				</div>
+				<div>
+					<p id="artistInfoSingles">
+					<!-- Content for displaying artist information based on selection -->
+					 </p>
 				</div>
 			</section>
 		</section>

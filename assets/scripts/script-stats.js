@@ -1,4 +1,4 @@
-//Script to count the number of artists and songs featured on the site.
+// Script to count the number of artists and songs featured on the site.
 
 // Wait for the DOM content to be fully loaded before executing the function
 document.addEventListener('DOMContentLoaded', (event) => {
@@ -9,47 +9,65 @@ document.addEventListener('DOMContentLoaded', (event) => {
 // Asynchronous function to generate statistics text
 async function generateStatsText() {
     try {
-        // Fetch the JSON file containing the list of data files
-        const response = await fetch('assets/data/files.json');
-        // Extract the list of files from the JSON response
-        const files = await response.json();
-        // Initialize variables to track total songs and unique artists
-        let totalSongs = 0;
-        let uniqueArtists = new Set();
+        // Fetch the JSON files containing the list of data files
+        const [singlesResponse, albumsResponse] = await Promise.all([
+            fetch('assets/data/statsFiles/filesForSinglesStats.json'),
+            fetch('assets/data/statsFiles/filesForAlbumsStats.json')
+        ]);
 
-        // Iterate over each file in the list
-        for (const file of files) {
+        // Extract the list of files from the JSON responses
+        const singlesFiles = await singlesResponse.json();
+        const albumsFiles = await albumsResponse.json();
+
+        // Initialize variable to track total songs
+        let totalSongs = 0;
+
+        // Helper function to process singles data files
+        async function processSinglesData(file) {
             try {
-                // Fetch the content of each data file
-                const response = await fetch(`assets/data/${file}`);
-                // Extract JSON data from the fetched content
+                const response = await fetch(`assets/data/singlesData/${file}`);
                 const data = await response.json();
 
-                // Iterate over each array of songs in the data
                 Object.values(data).forEach(songsArray => {
-                    // Iterate over each song object in the array
                     songsArray.forEach(songObject => {
-                        // Iterate over each artist in the song object
                         Object.keys(songObject).forEach(artist => {
-                            // Check if the song is not empty
                             if (songObject[artist].trim() !== "") {
-                                // Increment the total song count
                                 totalSongs++;
-                                // Add the artist to the set of unique artists
-                                uniqueArtists.add(artist);
                             }
                         });
                     });
                 });
-
             } catch (error) {
-                // Log an error if fetching or parsing JSON fails for a file
                 console.error('Error fetching or parsing JSON:', error, 'File:', file);
             }
         }
 
-        // Calculate the total number of unique artists
-        const artistCount = files.length;
+        // Helper function to process albums data files
+        async function processAlbumsData(file) {
+            try {
+                const response = await fetch(`assets/data/albumsData/${file}`);
+                const data = await response.json();
+
+                data.albums.forEach(album => {
+                    album.tracks.forEach(track => {
+                        if (track.song.trim() !== "") {
+                            totalSongs++;
+                        }
+                    });
+                });
+            } catch (error) {
+                console.error('Error fetching or parsing JSON:', error, 'File:', file);
+            }
+        }
+
+        // Process all singles data files
+        await Promise.all(singlesFiles.map(file => processSinglesData(file)));
+
+        // Process all albums data files
+        await Promise.all(albumsFiles.map(file => processAlbumsData(file)));
+
+        // Calculate the total number of unique artists (files in the singlesFiles list)
+        const artistCount = singlesFiles.length;
 
         // Get the HTML element where the statistics text will be displayed
         var artistStats = document.getElementById("artistStats");
@@ -57,7 +75,6 @@ async function generateStatsText() {
         artistStats.textContent = `There are currently ${totalSongs} songs by ${artistCount} unique artists here.`;
 
     } catch (error) {
-        // Log an error if fetching the JSON file list fails
         console.error('Error fetching JSON file list:', error);
     }
 }

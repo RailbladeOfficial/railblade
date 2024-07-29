@@ -12,6 +12,10 @@ body {
 	min-height: 100vh;
 }
 
+span {
+	font-weight: bold;
+}
+
 a {
 	text-decoration: none;
 	color: #3498db;
@@ -261,7 +265,70 @@ tr:nth-child(even) {
 	flex: 1;
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+	body {
+		font-size: 100%;
+	}
 
+	h1 {
+		font-size: 1.5em;
+	}
+
+	.nav-section {
+		max-width: 80%;
+	}
+
+	.image,
+	.album-art {
+		width: 100%;
+		height: auto;
+		float: none;
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+
+	.image-banner {
+		width: 100%;
+		height: auto;
+	}
+
+	select {
+		width: 100%;
+	}
+
+	table {
+		width: 100%;
+	}
+
+	.album-container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.album-art-container,
+	.album-tracks {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+@media (max-width: 480px) {
+	body {
+		font-size: 90%;
+	}
+
+	h1 {
+		font-size: 1.2em;
+	}
+
+	button {
+		font-size: 18px;
+		padding: 5px 10px;
+	}
+}
 
 /*Footer Styles*/
 

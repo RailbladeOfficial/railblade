@@ -333,7 +333,8 @@ tr:nth-child(even) {
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 800px;       /* or whatever max width looks good on your layout */
+  max-width: 800px;
+  max-height: 450px;
   margin: 0 auto;         /* centers it horizontally */
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
